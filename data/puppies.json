@@ -1,0 +1,94 @@
+[
+  {
+	"breed": "Golden Retriever",
+    "price": 16000,
+	"featured": "yes",
+	"topseller": "yes",
+	"sale": "no"
+  },
+  {
+	"breed": "Shih Tzu",
+    "price": 10000,
+	"featured": "yes",
+	"topseller": "yes",
+	"sale": "no"
+  },
+	"breed": "Pomeranian",
+    "price": 6000,
+	"featured": "no",
+	"topseller": "no",
+	"sale": "no"
+  },
+	"breed": "Beagle",
+    "price": 8000,
+	"featured": "yes",
+	"topseller": "yes",
+	"sale": "no"
+  },
+	"breed": "Terrier",
+    "price": 8000,
+	"featured": "no",
+	"topseller": "no",
+	"sale": "no"
+  },
+	"breed": "Pug",
+    "price": 12000,
+	"featured": "no",
+	"topseller": "no",
+	"sale": "no"
+  },
+	"breed": "Maltese",
+    "price": 23000,
+	"featured": "no",
+	"topseller": "no",
+	"sale": "no"
+  },
+	"breed": "Basset Hound",
+    "price": 28000,
+	"featured": "no",
+	"topseller": "no",
+	"sale": "no"
+  },
+	"breed": "Bull Dog",
+    "price": 30000,
+	"featured": "no",
+	"topseller": "no",
+	"sale": "no"
+  },
+	"breed": "Siberian Husky",
+    "price": 25000,
+	"featured": "yes",
+	"topseller": "yes",
+	"sale": "no"
+  },
+	"breed": "Great Dane",
+    "price": 18000,
+	"featured": "no",
+	"topseller": "no",
+	"sale": "no"
+  },
+	"breed": "Boxer",
+    "price": 8000,
+	"featured": "no",
+	"topseller": "no",
+	"sale": "no"
+  },
+	"breed": "Labrador",
+    "price": 8000,
+	"featured": "no",
+	"topseller": "no",
+	"sale": "no"
+  },
+	"breed": "German Shepard",
+    "price": 8000,
+	"featured": "no",
+	"topseller": "no",
+	"sale": "no"
+  },
+	"breed": "Chihuahua",
+    "price": 8000,
+	"featured": "no",
+	"topseller": "no",
+	"sale": "no"
+  }
+]
