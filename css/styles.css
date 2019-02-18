@@ -1,32 +1,27 @@
 body{
     overflow: none;
-  -ms-overflow-style:none;
+    -ms-overflow-style:none;
     padding-bottom: 0;
-    /*background: url('https://lazygeniuslanz.github.io/img/parallax3.png') no-repeat fixed;
+    background: url('/css/img/cover1.jpg') 50% 45% no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;*/
+	background-size: cover;
     background-color: white;
-}
-::-webkit-scrollbar-thumb {
-  display: none;
-}
-::-webkit-scrollbar {
-  display: none;
-}
-::-webkit-scrollbar-button {
-  display: none;
 }
 
 .navbackground{
-    background: url('https://lazygeniuslanz.github.io/img/parallax2.png') no-repeat fixed;
+    /*background: url('/css/img/cover.jpg') 50% 45% no-repeat fixed;
     -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
-    min-height: 90vh;
+	background-size: cover;*/
+    min-height: 100vh;
     padding: 5vh;
+}
+
+.nav-link{
+    color: rgba(255,255,255,1) !important;
 }
 
 .scrollbar{
@@ -43,13 +38,16 @@ body{
     width: 100%;
 }
 
-.intro{
-    min-height: 100vh;
+.intro{ 
     padding: 5vh 8vh 0 8vh;
 }
 
 .carousel-img img{
     width: 100%;
+}
+
+.card img{
+    image-orientation: from-image;
 }
 
 .page{
