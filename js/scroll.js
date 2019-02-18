@@ -20,6 +20,6 @@ function changeBackground() {
         $('body').css('-moz-background-size', 'cover');
         $('body').css('-o-background-size', 'cover');
         $('body').css('background-size', 'cover');
-        $('body').css('background-attachment', 'scroll');
+        $('body').css('background-attachment', 'fixed');
     }
 }
