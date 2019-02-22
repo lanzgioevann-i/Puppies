@@ -1,13 +1,33 @@
-﻿$(function () {
-    $(window).scroll(changeBackground);
+﻿$(document).ready(function () {
+    $(window).scrollTop($(window).scrollTop() + 1);
+    $(window).scrollTop($(window).scrollTop() - 1);
 });
+
+$(function () {
+    $(window).scroll(changeBackground);
+    $(window).scroll(stickyNav);
+});
+
+function stickyNav() {
+    var window_top = $(window).scrollTop();
+    var div_top = $('#navline').offset().top;
+
+    if (window_top > (div_top - 400)) {
+        $('#mainnav').addClass('shownav');
+        $('#mainnav').removeClass('hidenav');
+    }
+    else {
+        $('#mainnav').removeClass('shownav');
+        $('#mainnav').addClass('hidenav');
+    }
+}
 
 function changeBackground() {
     var window_top = $(window).scrollTop();
     var div_top = $('#description').offset().top;
 
     if (window_top > (div_top - 1000)) {
-        $('body').css('background', 'url(https://lazygeniuslanz.github.io/Puppies/css/img/cover3.jpg) center center no-repeat');
+        $('body').css('background', 'url(https://lazygeniuslanz.github.io/Puppies/img/cover3.jpg) center center no-repeat');
         $('body').css('-webkit-background-size', 'cover');
         $('body').css('-moz-background-size', 'cover');
         $('body').css('-o-background-size', 'cover');
@@ -15,7 +35,7 @@ function changeBackground() {
         $('body').css('background-attachment', 'fixed');
     }
     else {
-        $('body').css('background', 'url(https://lazygeniuslanz.github.io/Puppies/css/img/cover1.jpg) center center no-repeat');
+        $('body').css('background', 'url(https://lazygeniuslanz.github.io/Puppies/img/cover1.jpg) center center no-repeat');
         $('body').css('-webkit-background-size', 'cover');
         $('body').css('-moz-background-size', 'cover');
         $('body').css('-o-background-size', 'cover');
