@@ -1,6 +1,8 @@
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 body{
@@ -14,6 +16,10 @@ body{
 	-o-background-size: cover;
 	background-size: cover;
     background-color: white;
+}
+
+.test{
+    overflow-x: hidden;
 }
 
 /* NAV BAR */
