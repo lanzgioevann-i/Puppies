@@ -17,20 +17,18 @@ function stickyNav() {
         $('#mainnav').removeClass('hidenav');
         $('.nav-font-color').addClass('black-text');
         $('.nav-font-color').removeClass('white-text');
-        $('.nav-logo').addClass('color');
     }
     else {
         $('#mainnav').removeClass('shownav');
         $('#mainnav').addClass('hidenav');
         $('.nav-font-color').addClass('white-text');
         $('.nav-font-color').removeClass('black-text');
-        $('.nav-logo').removeClass('color');
     }
 }
 
 function changeBackground() {
     var window_top = $(window).scrollTop();
-    var div_top = $('#description').offset().top;
+    var div_top = $('#contact-us').offset().top;
 
     if (window_top > (div_top - 1000)) {
         $('body').css('background', 'url(https://lazygeniuslanz.github.io/Puppies/img/cover3.jpg) center center no-repeat');

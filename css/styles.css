@@ -16,10 +16,7 @@ body{
 	-o-background-size: cover;
 	background-size: cover;
     background-color: white;
-}
-
-.test{
-    overflow-x: hidden;
+    position: relative;
 }
 
 /* NAV BAR */
@@ -40,17 +37,6 @@ body{
 
 #mainnav.hidenav{
     background-color: rgba(0,0,0,0.5);
-}
-
-.nav-logo{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  transition: all 0.5s ease-in-out;
-}
-
-.nav-logo.color{
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
 }
 
 .under-link {
