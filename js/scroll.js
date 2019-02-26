@@ -17,12 +17,14 @@ function stickyNav() {
         $('#mainnav').removeClass('hidenav');
         $('.nav-font-color').addClass('black-text');
         $('.nav-font-color').removeClass('white-text');
+        $('.nav-logo').addClass('color');
     }
     else {
         $('#mainnav').removeClass('shownav');
         $('#mainnav').addClass('hidenav');
         $('.nav-font-color').addClass('white-text');
         $('.nav-font-color').removeClass('black-text');
+        $('.nav-logo').removeClass('color');
     }
 }
 
