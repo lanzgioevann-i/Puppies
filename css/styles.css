@@ -29,7 +29,8 @@ body{
 	margin-top: 0 !important;
 	top: 0 !important;
 	z-index: 10000;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
 	transition: all 0.5s ease-in-out;
 }
 
@@ -38,7 +39,18 @@ body{
 }
 
 #mainnav.hidenav{
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.5);
+}
+
+.nav-logo{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-logo.color{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
 }
 
 .under-link {
