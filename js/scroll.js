@@ -15,10 +15,14 @@ function stickyNav() {
     if (window_top > (div_top - 400)) {
         $('#mainnav').addClass('shownav');
         $('#mainnav').removeClass('hidenav');
+        $('.nav-font-color').addClass('black-text');
+        $('.nav-font-color').removeClass('white-text');
     }
     else {
         $('#mainnav').removeClass('shownav');
         $('#mainnav').addClass('hidenav');
+        $('.nav-font-color').addClass('white-text');
+        $('.nav-font-color').removeClass('black-text');
     }
 }
 

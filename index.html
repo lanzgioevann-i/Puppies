@@ -19,22 +19,23 @@
         <nav class="navbar navbar-expand-md" id="mainnav">
             <div class="container">
                 <a href="/" class="navbar-brand"><img src="img/logo.jpg" class="img-fluid" width="60" /></a>
+                <h1 class="nav-link white-text font-bebas m-0 nav-font-color">ROMA INDUSTRIES</h1>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" onclick="navToggle()">
-                    <i class="fas fa-bars black-text"></i>
+                    <i class="fas fa-bars nav-font-color white-text" id="nav-hamburger"></i>
                 </button>
                 <div class="navbar-collapse collapse justify-content-stretch pl-1" id="navbar">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link under-link black-text" href="#">Home</a>
+                            <a class="nav-link under-link nav-font-color white-text" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link under-link black-text" href="#">Products</a>
+                            <a class="nav-link under-link nav-font-color white-text" href="#">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link under-link black-text" href="#">Contact Us</a>
+                            <a class="nav-link under-link nav-font-color white-text" href="#">Contact Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link under-link black-text" href="#">About</a>
+                            <a class="nav-link under-link nav-font-color white-text" href="#">About</a>
                         </li>
                     </ul>
                 </div>
@@ -43,7 +44,7 @@
 
         <div class="hero">
 
-            <div class="container-fluid">
+            <div class="container-fluid d-none">
                 <div class="row fill-parent align-items-center text-center p-5">
                     <div class="col p-5" style="border-top: solid 1px white; border-bottom: solid 1px white;">
                         <h1 class="white-text font-bebas d-sm-block d-md-none">ROMA INDUSTRIES</h1>
@@ -187,12 +188,14 @@
             </div>
         </div>
 
+        <!-- VIDEO -->
         <div class="white pb-5">
             <div class="container text-center">
-                <div class="video-container">
-                    <iframe width="853" height="480" src="https://www.youtube.com/embed/xoLPVGgGCF0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-                    <!--<iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLK28MtyW6vJ3_Eyx6nxHLTZEDNftbWKAD" frameborder="0" gesture="media" controls allowfullscreen></iframe>-->
+
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xoLPVGgGCF0" allowfullscreen></iframe>
                 </div>
+
             </div>
         </div>
 
