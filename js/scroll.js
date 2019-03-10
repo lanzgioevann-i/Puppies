@@ -4,7 +4,7 @@
 });
 
 $(function () {
-    $(window).scroll(changeBackground);
+    //$(window).scroll(changeBackground);
     $(window).scroll(stickyNav);
 });
 
@@ -26,6 +26,7 @@ function stickyNav() {
     }
 }
 
+/*
 function changeBackground() {
     var window_top = $(window).scrollTop();
     var div_top = $('#contact-us').offset().top;
@@ -47,8 +48,4 @@ function changeBackground() {
         $('body').css('background-attachment', 'fixed');
     }
 }
-
-var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
-if(iOS){
-    $('body').css('background-attachment', 'scroll');
-}
+*/
