@@ -69,7 +69,7 @@ body{
     transition: width .3s;
 }
 
-.hero{
+#header-container{
     min-height: 100vh;
 }
 
