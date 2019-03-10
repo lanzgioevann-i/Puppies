@@ -1,33 +1,24 @@
-html, body {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
-
-body:after{
-    content:"";
-    position:fixed; 
-    top:0;
-    height:100vh; 
-    left:0;
-    right:0;
-    z-index:-1;
-}
+html { height: 100%; }
 
 body{
-    width: 100%;
+	background-color: #fff;
+	color: #757575 !important;
+	margin:0px 0px; 
+	font-family: 'Open Sans', sans-serif;
 	overflow-x:hidden;
-    -ms-overflow-style:none;
-    padding-bottom: 0;
-    background: url('') 50% 45% no-repeat fixed;
+	
+	background: url('https://lazygeniuslanz.github.io/Puppies/img/cover/landscape/1.jpg') center center no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-    background-color: white;
-    position: relative;
+	background-color: #272727;
 }
+
+main{
+	min-width: 100% !important;
+}
+
 
 /* NAV BAR */
 #mainnav {
