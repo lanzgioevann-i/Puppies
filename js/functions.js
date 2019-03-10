@@ -9,6 +9,3 @@
     }
 
 }
-
-var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
-if(iOS) $('body').css('background-attachment', 'scroll');
