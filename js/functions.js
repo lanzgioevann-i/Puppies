@@ -9,13 +9,7 @@
     }
 }
 
-$(document).ready(function () {
-    changeBackground()
-});
-
-function changeBackground() {
-
-    var w = window.innerWidth;
+var w = window.innerWidth;
     var h = window.innerHeight;
     var o = 'landscape';
     var i = 1;
@@ -32,8 +26,7 @@ function changeBackground() {
     $('body').css('-moz-background-size', 'cover');
     $('body').css('-o-background-size', 'cover');
     $('body').css('background-size', 'cover');
-    $('body').css('background-attachment', 'fixed');
+    $('body').css('background-attachment', 'scroll');
 
     var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
     if(iOS) $('body').css('background-attachment', 'scroll');
-}
