@@ -36,7 +36,6 @@ function changeBackground() {
         $('body').css('-moz-background-size', 'cover');
         $('body').css('-o-background-size', 'cover');
         $('body').css('background-size', 'cover');
-        $('body').css('background-attachment', 'fixed');
     }
     else {
         $('body').css('background', 'url(https://lazygeniuslanz.github.io/Puppies/img/cover1.jpg) center center no-repeat');
@@ -44,6 +43,5 @@ function changeBackground() {
         $('body').css('-moz-background-size', 'cover');
         $('body').css('-o-background-size', 'cover');
         $('body').css('background-size', 'cover');
-        $('body').css('background-attachment', 'fixed');
     }
 }
